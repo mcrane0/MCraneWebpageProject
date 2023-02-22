@@ -7,6 +7,16 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; 
 */
 
+
+@font-face {
+    font-family: 'Webdings';
+    src: url('font/webdings.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Wingding';
+    src: url('font/wingding.ttf') format('truetype');
+}
+
 * {
     margin:0;
     padding:0;
@@ -22,8 +32,8 @@ body {
     display:flex;
     justify-content: space-around;
     align-items: center;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:100px;
+    padding-right:100px;
 
     background-color:whitesmoke;
     color:black;
@@ -31,15 +41,50 @@ body {
 }
 #nav h1 {
     margin:10px;
-    font-size:40px;
+    color:black;
+    font-size:36px;
 }
 #nav a {
-    margin:10px;
-    padding:15px 35px;
+    text-decoration:none;
+    color:#f7f7f7;
+}
+#link {
+    margin:5px;
+    padding:10px 30px;
     border-radius:10px;
 
     background-color:#297adb;
+    font-weight:500;
+}
+
+
+
+#footer {
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding:20px;
+    width:100%;
+
+    border-top: 5px solid #101135;
+}
+#footer p {
+    text-align: center;
+    font-size:20px;
+    font-weight:600;
+}
+#footer a {
     text-decoration:none;
     color:#f7f7f7;
-    font-size:20px;
+}
+.mail-icon {
+    font-family: 'Wingding';
+    font-size:24px;
+    font-weight:700;
+}
+#footer img {
+    width:160px;
+    border-radius:10px;
 }
