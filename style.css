@@ -48,7 +48,7 @@ body {
     text-decoration:none;
     color:#f7f7f7;
 }
-#link {
+.link {
     margin:5px;
     padding:10px 30px;
     border-radius:10px;
@@ -56,8 +56,12 @@ body {
     background-color:#297adb;
     font-weight:500;
 }
-
-
+.link:hover {
+    background-color:#79bee3;
+}
+.selected-link, .selected-link:hover {
+    background-color:#2667a0;
+}
 
 #footer {
     box-sizing: border-box;
@@ -87,4 +91,14 @@ body {
 #footer img {
     width:160px;
     border-radius:10px;
+}
+
+
+#resume-main {
+    margin:40px;
+}
+#resume {
+    display:block;
+    margin:auto;
+    width:50%;
 }
