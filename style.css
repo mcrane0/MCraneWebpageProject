@@ -115,15 +115,23 @@ body {
     margin:20px;
 }
 .worksample {
-
+    margin:auto;
+    width:850px;
 }
 .to-picture {
+    margin-right:20px;
     float:left;
-    width:300px;
+    width:200px;
 }
 .to-picture img {
+    margin-top:5px;
+    margin-bottom:5px;
     width:100%;
 }
+.to-text {
+    height:320px;
+}
 .worksample h2 {
+    margin-bottom:15px;
     font-family: 'Roboto', sans-serif;
 }
