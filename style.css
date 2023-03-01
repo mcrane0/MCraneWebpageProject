@@ -28,6 +28,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    color:#f7f7f7; 
+}
+
 #nav {
     position: sticky;
     top: 0;
