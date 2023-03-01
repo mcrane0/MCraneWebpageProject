@@ -118,6 +118,10 @@ body {
     margin:auto;
     width:850px;
 }
+.worksample h2 {
+    margin-bottom:15px;
+    font-family: 'Roboto', sans-serif;
+}
 .to-picture {
     margin-right:20px;
     float:left;
@@ -130,8 +134,4 @@ body {
 }
 .to-text {
     height:320px;
-}
-.worksample h2 {
-    margin-bottom:15px;
-    font-family: 'Roboto', sans-serif;
 }
