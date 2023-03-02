@@ -155,9 +155,38 @@ a {
 #letterrec-main {
     margin:40px;
 }
-
-#anne {
+#letterrec-main h2 {
+    text-align:center;
+    font-size:22px;
+}
+#firstrow {
+    display:block;
     margin:20px auto;
+    width:1042px;
+}
+#bunnell {
+    display:inline-block;
+    margin-right:40px;
+    width:478px;
+}
+#bunnell img {
+    margin:0 14px;
+    width:450px;
+}
+#aquino {
+    display:inline-block;
+    margin-left:40px;
+    width:478px;
+}
+#aquino img {
+    margin:0 14px;
+    width:450px;
+}
+#secondrow {
+    margin:20px auto;
+    width:917px;
+}
+#anne {
     width:917px;
 }
 #anne img {
