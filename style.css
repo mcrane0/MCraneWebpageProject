@@ -23,7 +23,7 @@ font-family: 'Roboto Mono', monospace;
 }
 
 body {
-    background-color:#0a347c;
+    background-color:#101117;
     color:#f7f7f7;
     font-family: 'Open Sans', sans-serif;
 }
@@ -37,13 +37,13 @@ a {
     justify-content: center;
     align-items: center;
 
-    background-color:rgba(245, 245, 245, 0.85);
+    background-color:rgba(117, 117, 117, 0.85);
     color:black;
     font-family: 'Roboto', sans-serif;
 }
 #nav h1 {
     margin-top:10px;
-    color:black;
+    color:white;
     font-size:36px;
 }
 #nav a {
@@ -58,7 +58,7 @@ a {
     width:814px;
     padding:10px calc((100vw - 814px) / 2);
 
-    background-color:rgba(245, 245, 245, 0.85);
+    background-color:rgba(117, 117, 117, 0.85);
     font-family: 'Roboto', sans-serif;
 }
 .link a {
@@ -93,7 +93,7 @@ a {
     padding:20px;
     width:100%;
 
-    border-top: 5px solid #101135;
+    border-top:5px solid #5a5a5b;
 }
 #footer p {
     text-align: center;
