@@ -37,7 +37,7 @@ a {
     justify-content: center;
     align-items: center;
 
-    background-color:rgba(117, 117, 117, 0.85);
+    background-color:rgba(16, 17, 23, 0.85);
     color:black;
     font-family: 'Roboto', sans-serif;
 }
@@ -58,7 +58,8 @@ a {
     width:814px;
     padding:10px calc((100vw - 814px) / 2);
 
-    background-color:rgba(117, 117, 117, 0.85);
+    background-color:rgba(16, 17, 23, 0.85);
+    border-bottom:5px solid #5a5a5b;
     font-family: 'Roboto', sans-serif;
 }
 .link a {
@@ -66,8 +67,8 @@ a {
     padding:10px 30px;
     border-radius:10px;
 
-    background-color:#1581e0;
-    color:#f7f7f7;
+    background-color:#479c9c;
+    color:#131313;
     font-weight:500;
     text-decoration:none;
 
@@ -76,10 +77,13 @@ a {
 .link a:hover {
     padding:10px 35px;
 
-    background-color:#79bee3;
+    background-color:#479c9c;
 }
-#selected-link, #selected-link:hover {
-    background-color:#0d4b9a;
+#selected-link {
+    background-color:#479c9c;
+}
+#selected-link:hover {
+    background-color:#479c9c;
 }
 
 
