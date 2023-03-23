@@ -7,14 +7,11 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; 
 */
 
-
+/* Journal Dingbats 2 Font by Typographer Mediengestaltung
+    https://www.1001fonts.com/journal-dingbats-2-font.html */
 @font-face {
-    font-family: 'Webdings';
-    src: url('font/webdings.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Wingding';
-    src: url('font/wingding.ttf') format('truetype');
+    font-family: 'Journal Dingbats 2';
+    src: url('font/JournalDingbats2.ttf') format('truetype');
 }
 
 * {
@@ -37,7 +34,7 @@ a {
     justify-content: center;
     align-items: center;
 
-    background-color:rgba(16, 17, 23, 0.85);
+    background-color:rgba(103.06, 102.88, 103, 0.85);
     color:black;
     font-family: 'Roboto', sans-serif;
 }
@@ -58,8 +55,7 @@ a {
     width:814px;
     padding:10px calc((100vw - 814px) / 2);
 
-    background-color:rgba(16, 17, 23, 0.85);
-    border-bottom:5px solid #5a5a5b;
+    background-color:rgba(103, 103, 103, 0.85);
     font-family: 'Roboto', sans-serif;
 }
 .link a {
@@ -67,7 +63,7 @@ a {
     padding:10px 30px;
     border-radius:10px;
 
-    background-color:#479c9c;
+    background-color:#9cdcfe;
     color:#131313;
     font-weight:500;
     text-decoration:none;
@@ -76,17 +72,41 @@ a {
 }
 .link a:hover {
     padding:10px 35px;
-
-    background-color:#479c9c;
+    background-color:#179fff;
 }
 #selected-link {
-    background-color:#479c9c;
+    background-color:#569cd6;
 }
 #selected-link:hover {
-    background-color:#479c9c;
+    background-color:#179fff;
 }
 
-
+#main {
+    padding:20px;
+}
+#main h1 {
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 400;
+    font-size:40px;
+}
+#main h1 .blue {
+    color:#9cdcfe;
+}
+#main h1 .yellow1 {
+    color:#dcdcaa;
+}
+#main h1 .yellow2 {
+    color:#ffd700;
+}
+#main h1 .brown {
+    font-weight:700;
+    color:#ce9178;
+}
+#main p {
+    font-family: 'Roboto Mono', monospace; 
+    font-size:20px;
+    color:#6a9955;
+}
 
 #footer {
     box-sizing: border-box;
@@ -108,10 +128,9 @@ a {
     text-decoration:none;
     color:#f7f7f7;
 }
-.mail-icon {
-    font-family: 'Wingding';
-    font-size:24px;
-    font-weight:700;
+.main-icon {
+    font-family: 'Journal Dingbats 2';
+    font-size:28px;
 }
 #footer img {
     width:160px;
