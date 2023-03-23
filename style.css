@@ -7,11 +7,13 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; 
 */
 
-/* Journal Dingbats 2 Font by Typographer Mediengestaltung
-    https://www.1001fonts.com/journal-dingbats-2-font.html */
 @font-face {
-    font-family: 'Journal Dingbats 2';
-    src: url('font/JournalDingbats2.ttf') format('truetype');
+    font-family: 'Webdings';
+    src: url('font/webdings.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Wingding';
+    src: url('font/wingding.ttf') format('truetype');
 }
 
 * {
@@ -128,9 +130,10 @@ a {
     text-decoration:none;
     color:#f7f7f7;
 }
-.main-icon {
-    font-family: 'Journal Dingbats 2';
-    font-size:28px;
+.mail-icon {
+    font-family: 'Wingding';
+    font-size:24px;
+    font-weight:700;
 }
 #footer img {
     width:160px;
