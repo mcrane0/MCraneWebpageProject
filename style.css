@@ -104,7 +104,7 @@ a {
     font-weight:700;
     color:#ce9178;
 }
-#main p {
+#main .green {
     font-family: 'Roboto Mono', monospace; 
     font-size:20px;
     color:#6a9955;
