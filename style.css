@@ -106,8 +106,13 @@ a {
 }
 #main .green {
     font-family: 'Roboto Mono', monospace; 
-    font-size:20px;
+    font-size:24px;
     color:#6a9955;
+}
+#portrait-picture {
+    float:left;
+    margin-right:20px;
+    width:40vw;
 }
 
 #footer {
