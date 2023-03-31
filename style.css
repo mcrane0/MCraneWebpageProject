@@ -173,6 +173,7 @@ a {
     margin-bottom:15px;
     font-family: 'Roboto', sans-serif;
 }
+
 .to-picture {
     margin-right:20px;
     float:left;
@@ -186,6 +187,7 @@ a {
 .to-text {
     height:320px;
 }
+
 .jg-picture {
     margin-top:20px;
     width:100%;
@@ -198,6 +200,15 @@ a {
     margin:0 1%;
     width:50%;
 }
+
+.da-text {
+
+}
+.da-picture {
+    margin-left:20px;
+    float:right;
+}
+
 
 #letterrec-main {
     margin:40px;
