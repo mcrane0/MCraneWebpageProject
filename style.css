@@ -54,8 +54,8 @@ a {
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    width:814px;
-    padding:10px calc((100vw - 814px) / 2);
+    width:860px;
+    padding:10px calc((100vw - 860px) / 2);
 
     background-color:rgba(103, 103, 103, 0.85);
     font-family: 'Roboto', sans-serif;
@@ -202,11 +202,17 @@ a {
 }
 
 .da-text {
-
+    height:411px;
 }
-.da-picture {
-    margin-left:20px;
-    float:right;
+.da-picture-one {
+    margin-right:20px;
+    float:left;
+    width:200px;
+}
+.da-picture-one img {
+    margin-top:5px;
+    margin-bottom:5px;
+    width:100%;
 }
 
 
