@@ -162,6 +162,7 @@ a {
     width:50%;
 }
 
+
 #worksamples-main {
     margin:40px 20px;
 }
@@ -183,6 +184,12 @@ a {
     margin-top:5px;
     margin-bottom:5px;
     width:100%;
+    border-radius:10px;
+
+    transition-duration: 0.25s;
+}
+.to-picture img:hover {
+    border-radius:20px;
 }
 .to-text {
     height:320px;
@@ -195,10 +202,19 @@ a {
 .jg-picture img {
     margin:0 1%;
     width:45%;
+    border-radius:10px;
+
+    transition-duration: 0.25s;
 }
 .jg-picture video {
     margin:0 1%;
     width:50%;
+    border-radius:10px;
+
+    transition-duration: 0.25s;
+}
+.jg-picture img:hover, .jg-picture video:hover {
+    border-radius:20px;
 }
 
 .da-text {
@@ -209,15 +225,25 @@ a {
 }
 .da-picture img {
     width:100%;
-}
-#da-ws-one, #da-ws-two {
+    border-radius:10px;
 
+    transition-duration: 0.25s;
 }
-#da-ws-three {
-
+.da-picture img:hover {
+    border-radius:20px;
 }
-#da-ws-four, #da-ws-five {
-    
+.da-one-two {
+    padding-right:5px;
+    width:26.598%;
+}
+.da-three {
+    padding-left:5px;
+    padding-right:5px;
+    width:28.448%;
+}
+.da-four-five {
+    padding-left:5px;
+    width:44.954%;
 }
 
 
