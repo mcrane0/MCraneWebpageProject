@@ -210,20 +210,14 @@ a {
 .da-picture img {
     width:100%;
 }
-#da-ws-one {
-
-}
-#da-ws-two {
+#da-ws-one, #da-ws-two {
 
 }
 #da-ws-three {
 
 }
-#da-ws-four {
-
-}
-#da-ws-five {
-
+#da-ws-four, #da-ws-five {
+    
 }
 
 
