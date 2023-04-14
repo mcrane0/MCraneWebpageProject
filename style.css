@@ -205,45 +205,25 @@ a {
     margin-bottom:40px;
 }
 .da-picture {
-    display:grid;
     width:100%;
-
-    grid-template-columns: 27.5% 30% 42.5%;
-    grid-template-rows: 50% 50%;
-    gap:20px;
 }
 .da-picture img {
     width:100%;
 }
 #da-ws-one {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+
 }
 #da-ws-two {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+
 }
 #da-ws-three {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+
 }
 #da-ws-four {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+
 }
 #da-ws-five {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+
 }
 
 
