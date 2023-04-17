@@ -246,6 +246,28 @@ a {
     width:44.954%;
 }
 
+.wp-text {
+    height:690px;
+}
+.wp-picture {
+    float:right;
+    margin-left:20px;
+    padding-top:50px;
+    padding-bottom:75px;
+    width:400px;
+}
+.wp-picture img {
+    margin-top:5px;
+    margin-bottom:5px;
+    width:100%;
+    border-radius:10px;
+
+    transition-duration: 0.25s;
+}
+.wp-picture img:hover {
+    border-radius:20px;
+}
+
 
 #letterrec-main {
     margin:40px;
